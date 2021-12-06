@@ -1,0 +1,36 @@
+.project-item-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  
+  border-radius: 12px;
+  padding-top: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: 45%;
+  max-width: 128px;
+}
+
+@media screen and (min-width:768px){
+    .project-item-container{
+     max-width: 198px;
+    padding-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    }
+}
+
+.project-item-image {
+  width: 70px;
+  height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .project-item-image {
+    width: 102px;
+    height: 102px;
+  }
+}
